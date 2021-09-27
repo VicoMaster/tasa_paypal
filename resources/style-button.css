@@ -33,3 +33,10 @@
     box-shadow: 2px 4px 3px 0px rgba(0, 0, 0, 0.4), -4px -1px 1px 0px rgb(255, 255, 255, 0.7);
     transform: translateY(4px);
 }
+
+
+@media (max-width: 720px) {
+    .generic__button {
+        margin: 15px;
+    }
+}

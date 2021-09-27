@@ -87,6 +87,9 @@ h1 {
     .frame-container {
         padding: 8px;
     }
+    .container-content {
+        padding-bottom: 30px;
+    }
     .shadow--neumorphism {
         box-shadow: none;
         border: none;

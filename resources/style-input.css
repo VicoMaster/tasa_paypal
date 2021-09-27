@@ -1,0 +1,30 @@
+/*Hide Arrows input type number*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.generic__input {
+    border-radius: 25px;
+    height: 60px;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+}
+
+.input--grey {
+    background-color: #EEEEEE;
+    border: 3px solid #DFDFDF;
+    color: #868686;
+}
+
+.input--grey::placeholder {
+    color: #9D9D9D;
+}
+
+.shadow--neumorphism-inset {
+    box-shadow: 3px 7px 9px 0px rgba(0, 0, 0, 0.2) inset, -7px -8px 5px 0px rgb(255, 255, 255) inset;
+}

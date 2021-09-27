@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Botón - Sombra</title>
+    <link rel="stylesheet" href="resources/style-frame-container.css">
+    <link rel="stylesheet" href="resources/style-logo.css">
+    <link rel="stylesheet" href="resources/style-input.css">
+    <link rel="stylesheet" href="resources/style-button.css">
+    <title>ComPay | Tasa PayPal</title>
 </head>
+
 <body>
-    <div class="container">
-        <button class="generic__button button--grey shadow--neumorphism" type="button">¡Calcular!</button>
-    </div>
+    <header class="header-container">
+        <h1>ComPay</h1>
+    </header>
+    <main class="container">
+        <div class="frame-container shadow--neumorphism">
+            <div class="container-content">
+                <!--LOGO-->
+                <div class="logo shadow--neumorphism">
+                    <div class="container-h1">
+                        <h1>CP</h1>
+                    </div>
+                </div>
+                <!--LABEL-->
+                <div class="container-label">
+                    <span class="texto-span">Comisión PayPal 5.4%</span>
+                </div>
+                <div class="container-input">
+                    <input class="generic__input input--grey shadow--neumorphism-inset" type="number"
+                        placeholder="$ Monto a enviar" autofocus>
+                </div>
+                <div class="container-button">
+                    <button class="generic__button button--grey shadow--neumorphism-button"
+                        type="button">¡Calcular!</button>
+                </div>
+                <div class="container-label">
+                    <span class="texto-span">Deberás enviar:</span>
+                </div>
+                <div class="container-output">
+                    <span class="texto-span">$ 999.999,00</span>
+                </div>
+                <div class="container-output">
+                    <span class="texto-span">Para tu envio se cobrará una comisión total de 5.8%</span>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>

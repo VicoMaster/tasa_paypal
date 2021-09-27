@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.logo {
+    color: #868686;
+    background-color: #EEEEEE;
+    border: 3px solid #DFDFDF;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.shadow--neumorphism {
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.2), -4px -1px 1px 0px rgb(255, 255, 255, 0.7);
+}
+
+/*H1*/
+.container-h1 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #777777;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E8E8E8;
+}
+
+/*H1*/
+.header-container {
+    align-items: center;
+    background-color: #E8E8E8;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #777777;
+}
+
+.texto-span {
+    color: #868686;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.container-output {
+    text-align: center;
+}
+
+/*frame-container*/
+.container {
+    align-items: flex-start;
+    background-color: #E8E8E8;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.frame-container {
+    color: #868686;
+    background-color: #EEEEEE;
+    border: 3px solid #DFDFDF;
+    border-radius: 25px;
+    height: 640px;
+    padding: 15px;
+    width: 350px;
+}
+
+.shadow--neumorphism {
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.2), -4px -1px 1px 0px rgb(255, 255, 255, 0.7);
+}
+
+/*container content*/
+.container-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+@media (max-width: 720px) {
+    .header-container {
+        display: none;
+    }
+    .container {
+        height: 100vh;
+        align-items: center;
+    }
+    *{
+        overflow: hidden;
+    }
+  }

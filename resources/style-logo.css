@@ -25,5 +25,6 @@
 h1 {
     font-family: 'Anton', sans-serif;
     font-size: 40px;
+    font-weight: unset;
     color: #777777;
 }

@@ -33,7 +33,6 @@ function cambiarTexto() {
 
     //Show Results
     document.getElementById("input_amount").value = "";
-    document.getElementById("input_amount").focus();
     document.getElementById("span_usser_info").innerHTML = "Deberás enviar:";
     document.getElementById("span-amount").innerHTML = `\$ ${amount_format}`;
     document.getElementById("span_commission").innerHTML = `Llegará el monto: \$${amount_final_format}`;

@@ -27,28 +27,38 @@
                 </div>
                 <!--LABEL-->
                 <div class="container-label">
-                    <span class="texto-span">Comisión PayPal 5.4%</span>
+                    <span id="span-commssion-pp" class="texto-span"></span>
                 </div>
+                <!--INPUT-->
                 <div class="container-input">
-                    <input class="generic__input input--grey shadow--neumorphism-inset" type="number"
+                    <input id="input_amount" class="generic__input input--grey shadow--neumorphism-inset" type="number"
                         placeholder="$ Monto a enviar" autofocus>
                 </div>
+                <!--BUTTON-->
                 <div class="container-button">
-                    <button class="generic__button button--grey shadow--neumorphism-button"
-                        type="button">¡Calcular!</button>
+                    <button id="button-calcular" class="generic__button button--grey shadow--neumorphism-button"
+                        type="button" onclick="cambiarTexto()"></button>
                 </div>
-                <div class="container-label">
-                    <span class="texto-span">Deberás enviar:</span>
-                </div>
-                <div class="container-output">
-                    <span class="texto-span">$ 999.999,00</span>
-                </div>
-                <div class="container-output">
-                    <span style="font-weight: bold;" class="texto-span">Para tu envio se cobrará una comisión total de 5.8%</span>
+                <!-- Output -->
+                <div class="container-multi-output">
+                    <div class="container-label">
+                        <span id="span_usser_info" class="texto-span"> </span>
+                    </div>
+                    <div class="container-output">
+                        <span id="span-amount" class="texto-span"> </span>
+                    </div>
+                    <div class="container-output">
+                        <span id="span_commission" style="font-weight: bold" class="texto-span"> <br> </span>
+                    </div>
+                    <div class="container-output">
+                        <span id="span_org_amount" class="texto-span"> </span>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <script src="calculos.js"></script>
 </body>
 
 </html>

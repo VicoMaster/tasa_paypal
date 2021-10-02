@@ -74,6 +74,16 @@ h1 {
     width: 100%;
 }
 
+/*Container Multi Output*/
+
+.container-multi-output {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100px;
+}
+
 @media (max-width: 620px) {
     .header-container {
         display: none;

@@ -21,6 +21,9 @@ function cambiarTexto() {
     /*calc valor with add commission max applied*/
     const USER_AMOUNT = parseFloat(document.getElementById("input_amount").value);
     let user_amount = USER_AMOUNT;
+    if (!user_amount) {
+        user_amount = 0;
+    }
     user_amount = (user_amount * commission_pp) + user_amount;
     let amount_final = user_amount - (user_amount * COMMISION_APPLY);
 

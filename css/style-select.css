@@ -1,0 +1,13 @@
+.comission-select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    padding: .5rem;
+    color: #868686;
+    border-radius: 2.5rem;
+    border: 3px solid #DFDFDF;
+    width: max-content;
+}
+
+.min-width-select {
+    width: 10rem;
+}

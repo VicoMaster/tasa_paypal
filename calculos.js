@@ -1,6 +1,6 @@
 document.getElementById("button-calcular").innerHTML = "¡Calcular!";
-document.getElementById("span-commssion-pp").innerHTML = "Comisión PayPal 5.4%";
-
+document.getElementById("span-commssion-pp").innerHTML = "Comisión PayPal";
+selectComission = document.getElementById("comission-select");
 
 /*Adition event Enter on Input*/
 
@@ -15,7 +15,7 @@ document.getElementById("input_amount")
 
 function cambiarTexto() {
     /*Commission max applied*/
-    const COMMISION_APPLY = 0.054;
+    const COMMISION_APPLY = parseFloat(selectComission.value);
     let commission_pp = (COMMISION_APPLY * COMMISION_APPLY) + COMMISION_APPLY;
 
     /*calc valor with add commission max applied*/

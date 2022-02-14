@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style-frame-container.css">
     <link rel="stylesheet" href="css/style-logo.css">
     <link rel="stylesheet" href="css/style-input.css">
     <link rel="stylesheet" href="css/style-button.css">
+    <link rel="stylesheet" href="css/style-select.css">
     <title>ComPay | Tasa PayPal</title>
 </head>
 
@@ -29,6 +31,20 @@
                 <div class="container-label">
                     <span id="span-commssion-pp" class="texto-span"></span>
                 </div>
+                <!-- SELECT -->
+                <select class="comission-select" name="comission-select" id="comission-select">
+                    <option value="0">Seleccione la Comisión</option>
+                    <option value="0.050">5.0</option>
+                    <option value="0.051">5.1</option>
+                    <option value="0.052">5.2</option>
+                    <option value="0.053">5.3</option>
+                    <option value="0.054">5.4</option>
+                    <option value="0.055">5.5</option>
+                    <option value="0.056">5.6</option>
+                    <option value="0.057">5.7</option>
+                    <option value="0.058">5.8</option>
+                    <option value="0.059">5.9</option>
+                </select>
                 <!--INPUT-->
                 <div class="container-input">
                     <input id="input_amount" class="generic__input input--grey shadow--neumorphism-inset" type="number"
